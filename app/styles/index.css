@@ -1,2 +1,24 @@
-@import "../global.css";
-@import "../components/nav-bar.css";
+@import "./global.css";
+@import "./theme.css";
+@import "./components/nav-bar.css";
+@import "./components/hero-slider.css";
+@import "./components/card.css";
+body {
+    display: grid;
+    margin: 0;
+    grid-template-columns: 1fr 80vw 1fr;
+    grid-template-rows: 34px 1fr;
+    grid-template-areas: "nb nb nb" "main main main";
+}
+
+#main {
+    grid-area: main;
+    display: grid;
+    margin: 0;
+    grid-template-columns: 1fr 80vw 1fr;
+    grid-template-rows: 1fr;
+}
+
+#main-content {
+    grid-area: 1/2/2/3;
+}

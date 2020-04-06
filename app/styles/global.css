@@ -30,3 +30,14 @@
 a {
     text-decoration: none;
 }
+
+p {
+    font-size: 0.42em;
+    margin: 0%;
+}
+
+h2 {
+    margin: 0%;
+    font-weight: normal;
+    font-size: 1em;
+}
