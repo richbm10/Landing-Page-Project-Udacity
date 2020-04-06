@@ -1,0 +1,33 @@
+
+body {
+    font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvatica Neue", Arial, sans-serif;
+    font-size: 12px;
+}
+
+.font-family-B {
+    font-family: "Segoe Script";
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.primary-color {
+    color: #F9F6E5;
+}
+
+.secondary-color {
+    color: #333333;
+}
+
+.third-color {
+    color: #EA5643;
+}
+
+.fourth-color {
+    color: #F6F6F6;
+}
