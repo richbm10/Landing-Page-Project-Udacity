@@ -1,1 +1,13 @@
-@import "./card.css";
+.branding-card-A {
+    width: 80vw;
+    margin-bottom: 20px;
+}
+
+.branding-card-A-img {
+    height: 20vh;
+    width: 50vw;
+}
+
+.branding-card-A-content {
+    margin-left: 5%;
+}

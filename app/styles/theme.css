@@ -16,8 +16,11 @@ body {
 }
 
 .primary-color {
-    color: #F9F6E5;
     background-color: #F9F6E5;
+}
+
+.font-primary-color {
+    color: #F9F6E5;
 }
 
 .secondary-color {
@@ -29,10 +32,10 @@ body {
     color: #333333;
 }
 
-.third-color {
+.font-third-color {
     color: #EA5643;
 }
 
 .fourth-color {
-    color: #F6F6F6;
+    background-color: #F6F6F6;
 }

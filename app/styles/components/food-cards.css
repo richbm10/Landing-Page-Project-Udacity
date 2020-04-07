@@ -1,0 +1,25 @@
+.food-cards-section {
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.food-cards-header {
+    position: relative;
+    left: -2.5%;
+    margin-bottom: 10px;
+}
+
+.food-card {
+    margin: 0% 1% 0% 1%;
+    width: 26vw;
+    padding-bottom: 1%;
+}
+
+.food-card-img {
+    height: 10vh;
+    align-self: center;
+}
+
+.food-card-content {
+    margin: 2% 0% 2% 0%;
+}

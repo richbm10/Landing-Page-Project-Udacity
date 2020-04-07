@@ -3,6 +3,9 @@
 @import "./components/nav-bar.css";
 @import "./components/hero-slider.css";
 @import "./components/card.css";
+@import "./components/food-cards.css";
+@import "./components/branding-card-A.css";
+@import "./components/branding-card-B.css";
 body {
     display: grid;
     margin: 0;

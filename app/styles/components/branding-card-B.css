@@ -1,1 +1,30 @@
-@import "./card.css";
+.branding-card-B {
+    height: 28vh;
+    width: 80vw;
+    margin-bottom: 20px;
+}
+
+.branding-card-B-img-section {
+    padding: 0% 1% 0% 1%;
+    height: 28vh;
+    width: 45vw;
+    margin: 0%;
+}
+
+.branding-card-B-section-text {
+    margin-top: 1%;
+}
+
+.branding-card-B-img {
+    height: 20vh;
+    width: 45vw;
+}
+
+.branding-card-B-content {
+    margin: 0% 1% 0% 1%;
+    align-items: center;
+}
+
+#daily-event {
+    margin: 20px 0px 20px 0px;
+}
