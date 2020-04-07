@@ -1,11 +1,11 @@
 .branding-card-B {
-    height: 28vh;
+    height: 39vh;
     width: 80vw;
 }
 
 .branding-card-B-img-section {
     padding: 0% 1% 0% 1%;
-    height: 28vh;
+    height: 39vh;
     width: 45vw;
     margin: 0%;
 }
@@ -20,7 +20,7 @@
 }
 
 .branding-card-B-content {
-    margin: 0% 1% 0% 1%;
+    margin: 0% 2% 0% 2%;
     align-items: center;
 }
 
@@ -41,4 +41,47 @@
 
 #social-media {
     margin: 3% 0% 3% 0%;
+}
+
+@media(min-width: 768px) {
+    .branding-card-B-icon {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+@media(min-width: 1000px) {
+    .branding-card-B {
+        height: 42vh;
+    }
+    .branding-card-B-img-section {
+        height: 42vh;
+    }
+    .branding-card-B-img {
+        height: 25vh;
+    }
+    #social-media-branding {
+        height: 25vh;
+    }
+    #social-media-card {
+        height: 25vh;
+    }
+}
+
+@media(min-width: 1100px) {
+    .branding-card-B {
+        height: 55vh;
+    }
+    .branding-card-B-img-section {
+        height: 55vh;
+    }
+    .branding-card-B-img {
+        height: 35vh;
+    }
+    #social-media-branding {
+        height: 35vh;
+    }
+    #social-media-card {
+        height: 35vh;
+    }
 }

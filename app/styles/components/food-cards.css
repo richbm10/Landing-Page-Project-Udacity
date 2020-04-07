@@ -5,15 +5,36 @@
 
 .food-card {
     margin: 0% 1% 0% 1%;
+    height: 27vh;
     width: 26vw;
     padding-bottom: 1%;
+    justify-content: flex-start;
 }
 
 .food-card-img {
     height: 10vh;
+    width: 26vw;
     align-self: center;
 }
 
 .food-card-content {
     margin: 2% 0% 2% 0%;
+}
+
+@media(min-width: 1000px) {
+    .food-card {
+        height: 30vh;
+    }
+    .food-card-img {
+        height: 15vh;
+    }
+}
+
+@media(min-width: 1100px) {
+    .food-card {
+        height: 43vh;
+    }
+    .food-card-img {
+        height: 25vh;
+    }
 }
