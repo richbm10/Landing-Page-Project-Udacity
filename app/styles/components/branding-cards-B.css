@@ -1,7 +1,6 @@
 .branding-card-B {
     height: 28vh;
     width: 80vw;
-    margin-bottom: 20px;
 }
 
 .branding-card-B-img-section {
@@ -25,6 +24,21 @@
     align-items: center;
 }
 
-#daily-event {
-    margin: 20px 0px 20px 0px;
+.branding-card-B-icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 4%;
+}
+
+#social-media-card {
+    height: 20vh;
+}
+
+#social-media-branding {
+    align-items: center;
+    height: 20vh;
+}
+
+#social-media {
+    margin: 3% 0% 3% 0%;
 }

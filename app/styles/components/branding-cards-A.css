@@ -1,6 +1,6 @@
 .branding-card-A {
+    margin-top: 10px;
     width: 80vw;
-    margin-bottom: 20px;
 }
 
 .branding-card-A-img {
@@ -10,4 +10,13 @@
 
 .branding-card-A-content {
     margin-left: 5%;
+}
+
+.contact-map-img {
+    height: 20vh;
+    width: 25vw;
+}
+
+#find-us-cards {
+    margin-top: 20px;
 }

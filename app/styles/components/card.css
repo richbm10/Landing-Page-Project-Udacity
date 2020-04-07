@@ -7,3 +7,13 @@
 .card-text {
     font-size: 0.42em;
 }
+
+.card-spacing {
+    margin-top: 20px;
+}
+
+.cards-section-header {
+    position: relative;
+    left: -2.5%;
+    margin-bottom: 10px;
+}

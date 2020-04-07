@@ -3,12 +3,6 @@
     align-self: center;
 }
 
-.food-cards-header {
-    position: relative;
-    left: -2.5%;
-    margin-bottom: 10px;
-}
-
 .food-card {
     margin: 0% 1% 0% 1%;
     width: 26vw;
