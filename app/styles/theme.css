@@ -58,12 +58,12 @@ h2 {
 
 @media(min-width: 1000px) {
     body {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 
 @media(min-width: 1100px) {
     body {
-        font-size: 35px;
+        font-size: 45px;
     }
 }

@@ -26,8 +26,14 @@ body {
     grid-area: 1/2/2/3;
 }
 
+@media(min-width: 768px) {
+    body {
+        grid-template-rows: 44px 1fr;
+    }
+}
+
 @media(min-width: 1000px) {
     body {
-        grid-template-rows: 54px 1fr;
+        grid-template-rows: 64px 1fr;
     }
 }

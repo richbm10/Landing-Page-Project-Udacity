@@ -1,5 +1,5 @@
 .food-cards-section {
-    margin-bottom: 10px;
+    margin-bottom: 4%;
     align-self: center;
 }
 
@@ -21,7 +21,13 @@
     margin: 2% 0% 2% 0%;
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 375px) and (min-height: 812px) {
+    .food-card {
+        height: 25vh;
+    }
+}
+
+@media(min-width: 900px) {
     .food-card {
         height: 30vh;
     }
@@ -32,7 +38,7 @@
 
 @media(min-width: 1100px) {
     .food-card {
-        height: 43vh;
+        height: 53vh;
     }
     .food-card-img {
         height: 25vh;

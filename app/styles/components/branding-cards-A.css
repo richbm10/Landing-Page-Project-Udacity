@@ -1,5 +1,5 @@
 .branding-card-A {
-    margin-top: 10px;
+    margin-top: 4%;
     width: 80vw;
 }
 
@@ -17,17 +17,19 @@
     width: 25vw;
 }
 
-#find-us-cards {
-    margin-top: 20px;
-}
-
 @media(min-width: 768px) {
     .branding-card-A-content {
         margin-left: 3%;
     }
+    .branding-card-A-img {
+        height: 25vh;
+    }
+    .contact-map-img {
+        height: 25vh;
+    }
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 900px) {
     .branding-card-A-img {
         height: 30vh;
     }

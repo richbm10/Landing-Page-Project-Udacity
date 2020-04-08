@@ -1,6 +1,6 @@
 .progress-circle {
-    width: 12px;
-    height: 12px;
+    width: 7px;
+    height: 7px;
     border-radius: 100%;
     border: 1px solid transparent;
     margin: 0% 1% 0% 1%;
@@ -12,7 +12,7 @@
 }
 
 #hero-slider {
-    margin-top: 10px;
+    margin-top: 4%;
     align-self: center;
 }
 
@@ -39,19 +39,33 @@
 #hero-progress {
     align-self: center;
     position: relative;
-    top: 85%;
+    top: 90%;
 }
 
 @media(min-width: 768px) {
     .progress-circle {
-        width: 22px;
-        height: 22px;
+        width: 14px;
+        height: 14px;
+    }
+    #next-icon-1,
+    #next-icon-2 {
+        width: 50px;
+        height: 50px;
     }
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 900px) {
+    .progress-circle {
+        width: 21px;
+        height: 21px;
+    }
     #hero-img {
-        height: 40vh;
+        height: 50vh;
+    }
+    #next-icon-1,
+    #next-icon-2 {
+        width: 70px;
+        height: 70px;
     }
 }
 
