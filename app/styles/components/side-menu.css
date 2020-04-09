@@ -1,0 +1,30 @@
+.active-side-menu {
+    width: 250px;
+    margin-right: 250px;
+}
+
+.unactive-side-menu {
+    width: 0px;
+    margin-right: 0px;
+}
+
+.side-menu-button {
+    padding: 20px 30px;
+    font-size: 0.9em;
+}
+
+.side-menu-button:hover {
+    color: #EA5643;
+    transition: 0.4s;
+}
+
+#side-menu {
+    list-style-type: none;
+    position: fixed;
+    z-index: 1;
+    top: 34px;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.7s;
+}
