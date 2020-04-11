@@ -40,6 +40,9 @@
 }
 
 @media(min-width: 1000px) {
+    .active-side-menu {
+        width: 25vw;
+    }
     #side-menu {
         top: 61.5px;
     }

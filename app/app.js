@@ -1,3 +1,9 @@
+let activeHeroSliderImage = 0;
+const heroSliderImages = ['assets/images/group-of-people-gathering-inside-bar.jpg',
+    'assets/images/people-drinking-liquor-and-talking-on-dining-table-close-up.jpg',
+    'assets/images/clear-wine-glass-on-table.jpg'
+];
+
 function createSideMenuElement(sideMenu, menuElement) {
     const listItem = document.createElement('li');
     listItem.classList.add('side-menu-button');
@@ -11,12 +17,38 @@ function createSideMenuElement(sideMenu, menuElement) {
     sideMenu.appendChild(listItem);
 }
 
-// function setDocumentEventListeners() {
-//     const sideMenu = document.querySelector('#side-menu');
-//     document.addEventListener('click', function() {
-//         sideMenu.classList.toggle('unactive-side-menu');
-//     });
-// }
+function changeProgressCircleColor(progressCircle) {
+    const progressCircleClassList = (document.querySelectorAll('.progress-circle')[progressCircle]).classList;
+    if (progressCircleClassList.contains('primary-color')) {
+        progressCircleClassList.remove('primary-color');
+        progressCircleClassList.add('third-color');
+    } else if (progressCircleClassList.contains('third-color')) {
+        progressCircleClassList.remove('third-color');
+        progressCircleClassList.add('primary-color');
+    }
+}
+
+function changeHeroImage() {
+    document.querySelector('#hero-img').style.backgroundImage = `url(${heroSliderImages[activeHeroSliderImage]})`;
+    changeProgressCircleColor(activeHeroSliderImage);
+}
+
+function setHeroSliderEventListeners() {
+    document.querySelector('#next-icon-1').addEventListener('click', function() {
+        if (activeHeroSliderImage > 0) {
+            changeProgressCircleColor(activeHeroSliderImage);
+            activeHeroSliderImage -= 1;
+            changeHeroImage();
+        }
+    });
+    document.querySelector('#next-icon-2').addEventListener('click', function() {
+        if (activeHeroSliderImage < (heroSliderImages.length - 1)) {
+            changeProgressCircleColor(activeHeroSliderImage);
+            activeHeroSliderImage += 1;
+            changeHeroImage();
+        }
+    });
+}
 
 function setSideMenuEventListeners(sideMenu) {
     document.querySelector('#nav-slide-button').addEventListener('click', function() {
@@ -67,6 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sideMenu.appendChild(breakLine);
         createSideMenuElement(sideMenu, menuElements[i]);
     }
-    // setDocumentEventListeners();
+
+    setHeroSliderEventListeners();
     setSideMenuEventListeners(sideMenu);
 });
