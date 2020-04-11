@@ -1,9 +1,9 @@
 .active-side-menu {
-    width: 50vw;
+    right: 0vw;
 }
 
 .unactive-side-menu {
-    width: 0vw;
+    right: -50vw;
 }
 
 .side-menu-button {
@@ -22,10 +22,10 @@
 }
 
 #side-menu {
-    position: absolute;
+    position: fixed;
     z-index: 1;
-    top: 31.5px;
-    right: 0;
+    top: 30px;
+    width: 50vw;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
@@ -35,15 +35,12 @@
 
 @media(min-width: 768px) {
     #side-menu {
-        top: 41.5px;
+        top: 40px;
     }
 }
 
 @media(min-width: 1000px) {
-    .active-side-menu {
-        width: 25vw;
-    }
     #side-menu {
-        top: 61.5px;
+        top: 60px;
     }
 }
