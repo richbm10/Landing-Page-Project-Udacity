@@ -1,16 +1,14 @@
 .active-side-menu {
-    width: 250px;
-    margin-right: 250px;
+    width: 50vw;
 }
 
 .unactive-side-menu {
-    width: 0px;
-    margin-right: 0px;
+    width: 0vw;
 }
 
 .side-menu-button {
-    padding: 20px 30px;
-    font-size: 0.9em;
+    margin: 5% 0 5% 5%;
+    font-size: 1em;
 }
 
 .side-menu-button:hover {
@@ -18,13 +16,31 @@
     transition: 0.4s;
 }
 
+.sidemenu-break-line {
+    width: 90%;
+    color: #F9F6E5;
+}
+
 #side-menu {
-    list-style-type: none;
-    position: fixed;
+    position: absolute;
     z-index: 1;
-    top: 34px;
+    top: 31.5px;
     right: 0;
     overflow-x: hidden;
-    padding-top: 60px;
+    padding: 0;
+    margin: 0;
     transition: 0.7s;
+    opacity: 95%;
+}
+
+@media(min-width: 768px) {
+    #side-menu {
+        top: 41.5px;
+    }
+}
+
+@media(min-width: 1000px) {
+    #side-menu {
+        top: 61.5px;
+    }
 }

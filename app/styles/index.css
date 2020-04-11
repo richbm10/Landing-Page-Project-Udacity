@@ -1,6 +1,7 @@
 @import "./global.css";
 @import "./theme.css";
 @import "./components/nav-bar.css";
+@import "./components/side-menu.css";
 @import "./components/hero-slider.css";
 @import "./components/card.css";
 @import "./components/food-cards.css";
@@ -17,7 +18,6 @@ body {
     grid-template-rows: 34px 1fr;
     grid-template-areas: "nb nb nb" "main main main";
     transition: margin-right 0.7s;
-    overflow: hidden;
     width: 100%;
 }
 
