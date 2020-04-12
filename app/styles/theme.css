@@ -48,6 +48,12 @@ h2 {
     background-color: #F6F6F6;
 }
 
+.active-section {
+    height: 3px;
+    background-color: #333333;
+    transition: 4s;
+}
+
 @media(min-width: 375px) {
     body {
         font-size: 14px;

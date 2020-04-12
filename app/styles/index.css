@@ -21,6 +21,16 @@ body {
     width: 100%;
 }
 
+.section-break {
+    margin: 4% 0% 4% 0%;
+    width: 100%;
+}
+
+.sub-section-break {
+    margin: 2% 0% 2% 0%;
+    width: 100%;
+}
+
 #main {
     position: relative;
     top: 30px;
